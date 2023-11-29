@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[loginPageexicution is pass]]>
@@ -10,13 +10,16 @@
     <line>
       <![CDATA[loginPage_02exicution is pass]]>
     </line>
+    <line>
+      <![CDATA[loginexicution is pass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-11-28T10:57:33 IST" name="Suite" finished-at="2023-11-28T10:58:12 IST" duration-ms="38971">
+  <suite started-at="2023-11-28T11:54:47 IST" name="Suite" finished-at="2023-11-28T11:55:50 IST" duration-ms="63764">
     <groups>
     </groups>
-    <test started-at="2023-11-28T10:57:33 IST" name="Test" finished-at="2023-11-28T10:58:12 IST" duration-ms="38971">
+    <test started-at="2023-11-28T11:54:47 IST" name="Test" finished-at="2023-11-28T11:55:50 IST" duration-ms="63764">
       <class name="com.demo.Bankmanagerlogin">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:57:33 IST" name="openBrowser" finished-at="2023-11-28T10:57:42 IST" duration-ms="8876" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:54:47 IST" name="openBrowser" finished-at="2023-11-28T11:55:01 IST" duration-ms="14540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,19 +30,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:57:42 IST" name="openApp" finished-at="2023-11-28T10:57:44 IST" duration-ms="2012" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:55:01 IST" name="openApp" finished-at="2023-11-28T11:55:05 IST" duration-ms="3371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="loginPage()[pri:1, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:57:44 IST" name="loginPage" finished-at="2023-11-28T10:57:46 IST" duration-ms="2181" status="PASS">
+        <test-method signature="loginPage()[pri:1, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:55:05 IST" name="loginPage" finished-at="2023-11-28T11:55:11 IST" duration-ms="6106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="testMethodResult(org.testng.ITestResult)[pri:0, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:57:46 IST" name="testMethodResult" finished-at="2023-11-28T10:57:46 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="testMethodResult(org.testng.ITestResult)[pri:0, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:55:11 IST" name="testMethodResult" finished-at="2023-11-28T11:55:11 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginPage status=SUCCESS method=Bankmanagerlogin.loginPage()[pri:1, instance:com.demo.Bankmanagerlogin@1e0b4072] output={null}]]]>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=Bankmanagerlogin.loginPage()[pri:1, instance:com.demo.Bankmanagerlogin@1ffaf86] output={null}]]]>
               </value>
             </param>
           </params>
@@ -49,19 +52,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- testMethodResult -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:57:46 IST" name="openApp" finished-at="2023-11-28T10:57:46 IST" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:55:11 IST" name="openApp" finished-at="2023-11-28T11:55:11 IST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="addCurrency()[pri:2, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:57:46 IST" name="addCurrency" finished-at="2023-11-28T10:57:48 IST" duration-ms="1305" status="PASS">
+        <test-method signature="addCurrency()[pri:2, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:55:11 IST" name="addCurrency" finished-at="2023-11-28T11:55:13 IST" duration-ms="2167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCurrency -->
-        <test-method is-config="true" signature="testMethodResult(org.testng.ITestResult)[pri:0, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:57:48 IST" name="testMethodResult" finished-at="2023-11-28T10:57:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testMethodResult(org.testng.ITestResult)[pri:0, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:55:13 IST" name="testMethodResult" finished-at="2023-11-28T11:55:13 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addCurrency status=SUCCESS method=Bankmanagerlogin.addCurrency()[pri:2, instance:com.demo.Bankmanagerlogin@1e0b4072] output={null}]]]>
+                <![CDATA[[TestResult name=addCurrency status=SUCCESS method=Bankmanagerlogin.addCurrency()[pri:2, instance:com.demo.Bankmanagerlogin@1ffaf86] output={null}]]]>
               </value>
             </param>
           </params>
@@ -71,19 +74,19 @@
             </line>
           </reporter-output>
         </test-method> <!-- testMethodResult -->
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:57:48 IST" name="openApp" finished-at="2023-11-28T10:57:48 IST" duration-ms="43" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:55:13 IST" name="openApp" finished-at="2023-11-28T11:55:13 IST" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="loginPage_02()[pri:3, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:57:48 IST" name="loginPage_02" finished-at="2023-11-28T10:58:10 IST" duration-ms="22419" status="PASS">
+        <test-method signature="loginPage_02()[pri:3, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:55:13 IST" name="loginPage_02" finished-at="2023-11-28T11:55:36 IST" duration-ms="22469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage_02 -->
-        <test-method is-config="true" signature="testMethodResult(org.testng.ITestResult)[pri:0, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:58:10 IST" name="testMethodResult" finished-at="2023-11-28T10:58:10 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testMethodResult(org.testng.ITestResult)[pri:0, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:55:36 IST" name="testMethodResult" finished-at="2023-11-28T11:55:36 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginPage_02 status=SUCCESS method=Bankmanagerlogin.loginPage_02()[pri:3, instance:com.demo.Bankmanagerlogin@1e0b4072] output={null}]]]>
+                <![CDATA[[TestResult name=loginPage_02 status=SUCCESS method=Bankmanagerlogin.loginPage_02()[pri:3, instance:com.demo.Bankmanagerlogin@1ffaf86] output={null}]]]>
               </value>
             </param>
           </params>
@@ -93,11 +96,50 @@
             </line>
           </reporter-output>
         </test-method> <!-- testMethodResult -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demo.Bankmanagerlogin@1e0b4072]" started-at="2023-11-28T10:58:10 IST" name="closeBrowser" finished-at="2023-11-28T10:58:12 IST" duration-ms="1922" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demo.Bankmanagerlogin@1ffaf86]" started-at="2023-11-28T11:55:36 IST" name="closeBrowser" finished-at="2023-11-28T11:55:37 IST" duration-ms="1824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.demo.Bankmanagerlogin -->
+      <class name="com.demo.Loginpage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.demo.Loginpage@6574a52c]" started-at="2023-11-28T11:55:37 IST" name="openBrowser" finished-at="2023-11-28T11:55:45 IST" duration-ms="7223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.demo.Loginpage@6574a52c]" started-at="2023-11-28T11:55:45 IST" name="openApp" finished-at="2023-11-28T11:55:47 IST" duration-ms="2274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="login()[pri:0, instance:com.demo.Loginpage@6574a52c]" started-at="2023-11-28T11:55:47 IST" name="login" finished-at="2023-11-28T11:55:49 IST" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="testMethodResult(org.testng.ITestResult)[pri:0, instance:com.demo.Loginpage@6574a52c]" started-at="2023-11-28T11:55:49 IST" name="testMethodResult" finished-at="2023-11-28T11:55:49 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Loginpage.login()[pri:0, instance:com.demo.Loginpage@6574a52c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[loginexicution is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethodResult -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demo.Loginpage@6574a52c]" started-at="2023-11-28T11:55:49 IST" name="closeBrowser" finished-at="2023-11-28T11:55:50 IST" duration-ms="1805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demo.Loginpage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
